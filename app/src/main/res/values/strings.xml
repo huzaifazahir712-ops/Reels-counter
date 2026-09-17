@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ReelScroll Counter</string>
+    <string name="accessibility_service_label">TikTok Reel Counter Service</string>
+    <string name="accessibility_service_description">Detects and counts reels scrolled when using TikTok to generate weekly screen time and productivity reports.</string>
+    <string name="dashboard_title">Activity Dashboard</string>
+    <string name="dashboard_subtitle">Today\'s scrolls and weekly progress overview</string>
+    <string name="today_scrolls_title">Today\'s Scrolls</string>
+    <string name="weekly_progress_title">Weekly Progress</string>
+    <string name="weekly_total_label">Week Total</string>
+    <string name="weekly_avg_label">Daily Average</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Phone / Reel Frame (Centered inside 66dp safe zone: x from 34 to 74, y from 26 to 82) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M37,28 C37,25.8 38.8,24 41,24 L67,24 C69.2,24 71,25.8 71,28 L71,80 C71,82.2 69.2,84 67,84 L41,84 C38.8,84 37,82.2 37,80 Z" />
+
+    <!-- Outer Phone Border -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:pathData="M37,28 C37,25.8 38.8,24 41,24 L67,24 C69.2,24 71,25.8 71,28 L71,80 C71,82.2 69.2,84 67,84 L41,84 C38.8,84 37,82.2 37,80 Z" />
+
+    <!-- Screen Screen Area -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M40,28 L68,28 L68,80 L40,80 Z" />
+
+    <!-- Reel Video Card 1 (Current reel) -->
+    <path
+        android:fillColor="#F43F5E"
+        android:pathData="M43,44 L65,44 C66.1,44 67,44.9 67,46 L67,68 C67,69.1 66.1,70 65,70 L43,70 C41.9,70 41,69.1 41,68 L41,46 C41,44.9 41.9,44 43,44 Z" />
+
+    <!-- Play icon on reel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51,52 L59,57 L51,62 Z" />
+
+    <!-- Scroll Up Motion Arrow (Indicating scrolling to next reel) -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,40 L54,30 M50,34 L54,30 L58,34" />
+
+    <!-- Next incoming reel edge peeking from bottom -->
+    <path
+        android:fillColor="#06B6D4"
+        android:pathData="M43,73 L65,73 C66.1,73 67,73.9 67,75 L67,78 L41,78 L41,75 C41,73.9 41.9,73 43,73 Z" />
+
+    <!-- Productivity Gauge Dial Dots on Top-Right -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M52,26 L56,26"
+        android:strokeColor="#10B981"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Dynamic count bubble in corner -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M66,32 A6,6 0 1 0 78,32 A6,6 0 1 0 66,32" />
+    <path
+        android:strokeColor="#0F172A"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M70,30 L74,34 M74,30 L70,34" />
+
+</vector>
